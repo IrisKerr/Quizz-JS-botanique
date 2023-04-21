@@ -1,17 +1,95 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quizz JS</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    
 
-    <script src="app.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizz JS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Quizz <span>Botanique.</span>✔️ </h1>
+    <form action="post">
+
+      <div class="question__block">
+        <h3>Que signifie "caducifolié" ?</h3>
+        <div class="question__answer">
+          <input type="radio" name="q1">
+          <label for="q1">Qui se flétrit sur la plante sans s'en détacher.</label>
+        </div>
+        <div class="question__answer">
+          <input type="radio" name="q1">
+          <label for="q1">Qui garde ses feuilles tout au long de l'année.</label>
+        </div>
+        <div class="question__answer">
+          <input type="radio" name="q1">
+          <label for="q1">Qui perd ses feuilles à la mauvaise saison.</label>
+        </div>
+      </div>
+
+
+  </div>
+
+  <div class="question__block">
+    <h3 class="question__title">Que désignent les ptérydophytes ?</h3>
+    <div class="question__answer"><input type="radio" name="q2">
+      <label for="q2">Les fougères, prêles et lycopodes.</label></div>
+    <div class="question__answer"><input type="radio" name="q2">
+      <label for="q2">Les plantes à graines.</label></div>
+    <div class="question__answer"><input type="radio" name="q2">
+      <label for="q2">Les hépatiques et sphaignes.</label>
+    </div>
+  </div>
+
+  <div class="question__block">
+    <h3 class="question__title">Quelles sont les deux plantes invasives suivantes ?</h3>
+    <div class="question__answer"><input type="radio" name="q3">
+      <label for="q3">Le tabouret et la pensée calaminaire.</label></div>
+    <div class="question__answer"><input type="radio" name="q3">
+      <label for="q3">La balsamine de l'himalaya et la renouée du Japon.</label></div>
+    <div class="que3tion__answer"><input type="radio" name="q3">
+      <label for="q3">L'iris jaune et la massette.</label>
+    </div>
+  </div>
+
+
+  <div class="question__block">
+    <h3 class="question__title">Quel terme désigne l'organe mâle d'une fleur ?</h3>
+    <div class="question__answer"><input type="radio" name="q4">
+      <label for="q4">Le pistil.</label></div>
+    <div class="question__answer"><input type="radio" name="q4">
+      <label for="q4">Les carpelles.</label></div>
+    <div class="que4tion__answer"><input type="radio" name="q4">
+      <label for="q4">Les étamines.</label>
+    </div>
+  </div>
+
+  <div class="question__block">
+    <h3 class="question__title">Sur quel type de sol poussent les plantes calaminaires ?</h3>
+    <div class="question__answer"><input type="radio" name="q5">
+      <label for="q5">Un sol riche en plomb.</label></div>
+    <div class="question__answer"><input type="radio" name="q5">
+      <label for="q5">Un sol riche en argile.</label></div>
+    <div class="question__answer"><input type="radio" name="q5">
+      <label for="q5">Un sol riche en calcaire.</label>
+    </div>
+  </div>
+
+  <button type="submit">VALIDER ✅</button>
+  <div class="results">Cliquez sur <strong>valider </strong>pour voir les <strong>résultats</strong>.</div>
+
+  </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
 </html>
