@@ -22,71 +22,93 @@
       <div class="question__block">
         <h3>Que signifie "caducifolié" ?</h3>
         <div class="question__answer">
-          <input type="radio" name="q1">
-          <label for="q1">Qui se flétrit sur la plante sans s'en détacher.</label>
+          <input type="radio" id="marcescent" name="q1" value="a" checked>
+          <label for="marcescent">Qui se flétrit sur la plante sans s'en détacher.</label>
         </div>
         <div class="question__answer">
-          <input type="radio" name="q1">
-          <label for="q1">Qui garde ses feuilles tout au long de l'année.</label>
+          <input type="radio" id="persistent" name="q1" value="b">
+          <label for="persistent">Qui garde ses feuilles tout au long de l'année.</label>
         </div>
         <div class="question__answer">
-          <input type="radio" name="q1">
-          <label for="q1">Qui perd ses feuilles à la mauvaise saison.</label>
+          <input type="radio" id="caducifolié" name="q1" value="c">
+          <label for="caducifolié">Qui perd ses feuilles à la mauvaise saison.</label>
         </div>
       </div>
 
 
-  </div>
 
-  <div class="question__block">
-    <h3 class="question__title">Que désignent les ptérydophytes ?</h3>
-    <div class="question__answer"><input type="radio" name="q2">
-      <label for="q2">Les fougères, prêles et lycopodes.</label></div>
-    <div class="question__answer"><input type="radio" name="q2">
-      <label for="q2">Les plantes à graines.</label></div>
-    <div class="question__answer"><input type="radio" name="q2">
-      <label for="q2">Les hépatiques et sphaignes.</label>
+
+      <div class="question__block">
+        <h3 class="question__title">Que désignent les ptérydophytes ?</h3>
+
+        <div class="question__answer">
+          <input type="radio" id="ptéridophyte" name="q2" value="a" checked>
+          <label for="ptéridophyte">Les fougères, prêles et lycopodes.</label></div>
+
+        <div class="question__answer">
+          <input type="radio" id="spermatophyte" name="q2" value="b">
+          <label for="spermatophyte">Les plantes à graines.</label></div>
+
+        <div class="question__answer">
+          <input type="radio" id="bryophyte" name="q2" value="c">
+          <label for="bryophyte">Les hépatiques et sphaignes.</label>
+        </div>
+      </div>
+
+      <div class="question__block">
+        <h3 class="question__title">Quelles sont les deux plantes invasives suivantes ?</h3>
+
+        <div class="question__answer"><input type="radio" id="calaminaire" name="q3" value="a" checked>
+          <label for="calaminaire">Le tabouret et la pensée calaminaire.</label></div>
+
+        <div class="question__answer"><input type="radio" id="balsamine" name="q3" value="b">
+          <label for="balsamine">La balsamine de l'himalaya et la renouée du Japon.</label></div>
+
+        <div class="que3tion__answer"><input type="radio" id="iris" name="q3" value="c">
+          <label for="iris">L'iris jaune et la massette.</label>
+        </div>
+      </div>
+
+
+      <div class="question__block">
+        <h3 class="question__title">Quel terme désigne l'organe mâle d'une fleur ?</h3>
+
+        <div class="question__answer"><input type="radio" id="pistil" name="q4" value="a" checked>
+          <label for="pistil">Le pistil.</label></div>
+
+        <div class="question__answer"><input type="radio" id="carpelle" name="q4" value="b">
+          <label for="carpelle">Les carpelles.</label></div>
+
+        <div class="question__answer"><input type="radio" id="étamine" name="q4" value="c">
+          <label for="étamine">Les étamines.</label>
+        </div>
+      </div>
+
+      <div class="question__block">
+        <h3 class="question__title">Sur quel type de sol poussent les plantes calaminaires ?</h3>
+
+        <div class="question__answer"><input type="radio" id="plomb" name="q5" value="a" checked>
+          <label for="plomb">Un sol riche en plomb.</label></div>
+
+        <div class="question__answer"><input type="radio" id="argile" name="q5" value="b">
+          <label for="argile">Un sol riche en argile.</label></div>
+
+        <div class="question__answer"><input type="radio" id="calcaire" name="q5" value="c">
+          <label for="calcaire">Un sol riche en calcaire.</label>
+        </div>
+      </div>
+
+
+
+      <button type="submit">VALIDER ✅</button>
+    </form>
+
+    <div class="results">Cliquez sur <strong>valider </strong>pour voir les <strong>résultats</strong>.
+      <p class="mark"></p>
+      <p class="help"></p>
     </div>
-  </div>
-
-  <div class="question__block">
-    <h3 class="question__title">Quelles sont les deux plantes invasives suivantes ?</h3>
-    <div class="question__answer"><input type="radio" name="q3">
-      <label for="q3">Le tabouret et la pensée calaminaire.</label></div>
-    <div class="question__answer"><input type="radio" name="q3">
-      <label for="q3">La balsamine de l'himalaya et la renouée du Japon.</label></div>
-    <div class="que3tion__answer"><input type="radio" name="q3">
-      <label for="q3">L'iris jaune et la massette.</label>
-    </div>
-  </div>
 
 
-  <div class="question__block">
-    <h3 class="question__title">Quel terme désigne l'organe mâle d'une fleur ?</h3>
-    <div class="question__answer"><input type="radio" name="q4">
-      <label for="q4">Le pistil.</label></div>
-    <div class="question__answer"><input type="radio" name="q4">
-      <label for="q4">Les carpelles.</label></div>
-    <div class="que4tion__answer"><input type="radio" name="q4">
-      <label for="q4">Les étamines.</label>
-    </div>
-  </div>
-
-  <div class="question__block">
-    <h3 class="question__title">Sur quel type de sol poussent les plantes calaminaires ?</h3>
-    <div class="question__answer"><input type="radio" name="q5">
-      <label for="q5">Un sol riche en plomb.</label></div>
-    <div class="question__answer"><input type="radio" name="q5">
-      <label for="q5">Un sol riche en argile.</label></div>
-    <div class="question__answer"><input type="radio" name="q5">
-      <label for="q5">Un sol riche en calcaire.</label>
-    </div>
-  </div>
-
-  <button type="submit">VALIDER ✅</button>
-  <div class="results">Cliquez sur <strong>valider </strong>pour voir les <strong>résultats</strong>.</div>
-
-  </form>
   </div>
 
   <script src="app.js"></script>

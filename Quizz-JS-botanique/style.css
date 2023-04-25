@@ -10,5 +10,21 @@ body {
   min-height: 100vh;
   font-family: Open sans, sans-serif;
   background: linear-gradient(to right, #e0eafc, #cfdef3);
-  padding: clamp(20px, 5vw, 50px) 20px 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+}
+
+.question__block {
+  text-align: left;
+  background: rgba(241, 240, 240, 0.5);
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.2em;
+  box-shadow: 0px 5px 10px grey;
 }
